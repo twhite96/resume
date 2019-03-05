@@ -2,8 +2,8 @@
 
 # Site Settings
 title: Tiffany White | Front-end Developer
-url: 'https://tiffanywhite.tech'
-baseurl: '/' #change it according to your repository name
+url: 'https://twhite96.github.io/resume/'
+baseurl: '/resume/' #change it according to your repository name
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: turquoise # blue turquoise green berry orange ceramic
 chrome_mobile_color: #06D7D9
