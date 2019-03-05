@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Tiffany White
@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: tiffany@tiffanyrwhite.com
     phone: (412) 654 3356
-    website: tiffanywhite.dev #do not add http://
+    website: tiffanywhite.dev
     linkedin: tiffanyrwhite
     github: twhite96
     twitter: '@tiffanywhitedev'
