@@ -24,12 +24,12 @@ body { font-family: Georgia; color: #444; }
 .pad-bottom { padding-bottom: 2em;}
 .pad-top { padding-top: 2em;}
 /* //-- header, body, footer -- */
-#hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; border-bottom: 1px solid #ccc }
+#hd { margin: 2.5em 0 3em 0; padding-bottom: 1.5em; }
 #hd h2 { text-transform: uppercase; letter-spacing: 2px; }
 #bd, #ft { margin-bottom: 2em; }
 
 /* //-- footer -- */
-#ft { padding: 1em 0 5em 0; font-size: 92%; border-top: 1px solid #ccc; text-align: center; }
+#ft { padding: 1em 0 5em 0; font-size: 92%;  text-align: center; }
 #ft p { margin-bottom: 0; text-align: center;   }
 
 /* //-- core typography and style -- */
@@ -41,7 +41,7 @@ p { font-size: 100%; line-height: 18px; padding-right: 3em; }
 a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
-li { line-height: 24px; border-bottom: 1px solid #ccc; }
+li { line-height: 24px; display: list-item; }
 p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
 .contact-info { margin-top: 7px; }
@@ -61,7 +61,7 @@ a#pdf:hover { background: #990003; }
 .last { border: none; }
 /* .skills-list {  } */
 .skills-list ul { margin: 0; }
-.skills-list li { margin: 3px 0; padding: 3px 0; }
+.skills-list li { margin: 3px 0; padding: 3px 0; display: list-item; }
 .skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
 .talent { width: 32%; float: left }
 .talent h2 { margin-bottom: 6px; }
