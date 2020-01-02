@@ -4,7 +4,8 @@
   "description": "Resume built with http://sampleresumetemplate.net/",
   "main": "index.js",
   "dependencies": {
-    "jsonresume-theme-classy": "^1.0.9"
+    "jsonresume-theme-classy": "^1.0.9",
+    "resume-cli": "^1.2.7"
   },
   "devDependencies": {},
   "scripts": {
