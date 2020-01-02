@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume built with http://sampleresumetemplate.net/",
+  "main": "index.js",
+  "dependencies": {
+    "jsonresume-theme-classy": "^1.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhite96/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twhite96/resume/issues"
+  },
+  "homepage": "https://github.com/twhite96/resume#readme"
+}
