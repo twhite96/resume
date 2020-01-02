@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "npm install && npm run build",
-    "build": "resume export index.html"
+    "build": "resume export index.html --theme classy"
   },
   "repository": {
     "type": "git",
