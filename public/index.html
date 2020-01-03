@@ -9,9 +9,9 @@
 
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="manifest" href="../manifest.json">
     <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -241,6 +241,19 @@
 				<span class= "keywords">Source Control</span>
 		</div><br>
 
-	</div>
+  </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      console.log('CLIENT: service worker registration in progress.');
+      navigator.serviceWorker.register('../sw.js').then(function () {
+        console.log('CLIENT: service worker registration complete.');
+      }, function () {
+        console.log('CLIENT: service worker registration failure.');
+      });
+    } else {
+      console.log('CLIENT: service worker is not supported.');
+    }
+  </script>
+
   </body>
 </html>
