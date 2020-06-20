@@ -2,12 +2,11 @@
   "name": "Tiffany R. White | Frontend Developer",
   "short_name": "Resume",
   "description": "Resume for Tiffany White",
-  "dir": "ltr",
   "lang": "en",
   "theme_color": "#f5f5f5",
   "background_color": "#06d7d9",
   "display": "standalone",
-  "orientation": "natural",
+  "orientation": "portrait",
   "start_url": "/",
   "categories": ["resume", "web"],
   "icons": [{
