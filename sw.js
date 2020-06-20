@@ -1,7 +1,7 @@
 "use strict";
 console.log("WORKER: executing.");
 var version = "v1::",
-  tiffanyWhiteResume = ["/", "/css/global.css", "/js/global.js"];
+  tiffanyWhiteResume = ["/", "/css/resume.min.css", "/js/resume.min.js"];
 self.addEventListener("install", function (e) {
   console.log("WORKER: install event in progress."),
     e.waitUntil(
